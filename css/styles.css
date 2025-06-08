@@ -552,18 +552,3 @@ img {
   z-index: 1000; /* Забезпечуємо, що кнопка завжди поверх інших елементів */
   content: ""; /* Порожній контент для псевдоелемента */
 }
-.modal-close-icon {
-  /* Іконка закриття */
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація зміни кольору */
-}
-/* Стиль при наведенні та фокусі */
-.modal-window .modal-close-button:hover,
-.modal-window .modal-close-button:focus {
-  background-color: #404bbf; /* Зміна кольору фону при наведенні */
-  border: none; /* Видаляємо рамку при наведенні */
-}
-
-.modal-window .modal-close-button:hover,
-.modal-window .modal-close-button:focus {
-  fill: #ffffff; /* Зміна кольору іконки при наведенні */
-}
