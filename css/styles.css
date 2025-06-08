@@ -460,9 +460,6 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
-}
-.footer-label { /* Вирівнюємо елементи по горизонталі (label) */
-  gap: 24px;
 } 
 .footer-input {
   /*Box Model*/
@@ -487,7 +484,6 @@ img {
   min-width: 165px;
   height: 40px;
   background: var(--iris);
-  margin-left: 24px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
