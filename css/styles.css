@@ -482,7 +482,6 @@ img {
 
 .footer-button {
   display: flex;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -500,6 +499,7 @@ img {
 }
 .footer-social-icon-button {
   margin-left: 16px;
+  fill: var(--white);
 }
 
 /*Modal window*/
@@ -579,7 +579,4 @@ fieldset {
 .modal[type="checkbox"] {
   border-radius: 2px;
   border: 1px solid var(--navy-blue-modal);
-}
-.footer-social-icon-button {
-  margin-left: 16px;
 }
