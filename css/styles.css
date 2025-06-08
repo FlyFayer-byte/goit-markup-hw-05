@@ -41,7 +41,6 @@ img {
 }
 /* Визначаємо ширину та падінги для контейнера */
 .container {
-  /*max-width: ;*/
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -553,8 +552,9 @@ img {
 }
 
 /* Стиль при наведенні та фокусі */
-button .modal-close-button:hover, 
+.modal-close-button:hover, 
 .modal-close-button:focus {
   background-color: #404bbf; /* Зміна кольору фону при наведенні */
   border: none; /* Видаляємо рамку при наведенні */
+  outline: none; /* Видаляємо обведення при фокусі */
 }
