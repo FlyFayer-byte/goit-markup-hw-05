@@ -533,6 +533,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close-button {
@@ -580,6 +581,9 @@ img {
   display: block;
   margin-bottom: 4px;
 }
+.modal-input-wrapper {
+  position: relative;
+}
 .input {
   width: 100%;
   height: 40px;
@@ -587,6 +591,8 @@ img {
   border-radius: 4px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 38px; /* Відступ для іконки */
+  outline: transparent; /* Прибираємо обведення при фокусі */
 }
 .input:focus {
   border-color: #4d5ae5; /* Зміна кольору рамки при фокусі */
@@ -598,9 +604,9 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon-input:hover,
-.modal-icon-input:focus {
-  fill: #4D5AE5; /* Зміна кольору іконки при наведенні або фокусі */
+
+.input:focus {
+  fill: #4d5ae5; /* Зміна кольору іконки при наведенні або фокусі */
 }
 .modal {
   display: block;
