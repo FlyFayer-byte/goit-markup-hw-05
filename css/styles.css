@@ -520,7 +520,7 @@ img {
   opacity: 1; /* Показуємо модальне вікно */
   pointer-events: auto; /* Дозволяємо взаємодію з елементами модального вікна */
 }
-.modal {
+.modal-window {
   /* Контейнер модального вікна (form) */
   position: absolute; /* Абсолютне позиціонування для контейнера модального вікна */
   top: 50%;
@@ -534,118 +534,4 @@ img {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
-}
-
-.modal-close-button {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-close-button:hover,
-.modal-close-button:focus {
-  background-color: #404bbf; /* Зміна кольору при фокусі */
-  border: none;
-}
-.modal-close-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-header {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-  margin-bottom: 16px;
-}
-.modal-form-header {
-  margin-bottom: 8px;
-}
-.modal-label {
-  font-size: 12px;
-  line-height: 117%;
-  letter-spacing: 0.04em;
-  color: var(--light-slate);
-  display: block;
-  margin-bottom: 4px;
-}
-.modal-input-wrapper {
-  position: relative;
-}
-.input {
-  width: 100%;
-  height: 40px;
-  border: 1px solid var(--navy-blue-modal);
-  border-radius: 4px;
-  background-color: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-left: 38px; /* Відступ для іконки */
-  outline: transparent; /* Прибираємо обведення при фокусі */
-}
-.input:focus {
-  border-color: #4d5ae5; /* Зміна кольору рамки при фокусі */
-}
-.modal-icon-input {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.input:focus {
-  fill: #4d5ae5; /* Зміна кольору іконки при наведенні або фокусі */
-}
-.modal {
-  display: block;
-  justify-items: center;
-  align-items: center;
-}
-.modal-form {
-  width: 360px;
-  padding: 0;
-  font-size: 12px;
-  line-height: 117%;
-  letter-spacing: 0.04em;
-  color: var(--light-slate);
-}
-fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-.modal-form label {
-  margin-bottom: 4px;
-}
-.modal-form input {
-  border: 1px solid var(--navy-blue-modal);
-  border-radius: 4px;
-  width: 360px;
-  height: 40px;
-  margin-bottom: 8px;
-}
-.modal-form textarea {
-  border: 1px solid var(--navy-blue-modal);
-  border-radius: 4px;
-  width: 360px;
-  height: 120px;
-}
-.modal-fieldset {
-  width: 360px;
-}
-.modal[type="checkbox"] {
-  border-radius: 2px;
-  border: 1px solid var(--navy-blue-modal);
 }
