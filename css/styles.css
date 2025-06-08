@@ -553,8 +553,7 @@ img {
 }
 
 /* Стиль при наведенні та фокусі */
-.modal-close-button:active,
-.modal-close-button:hover, 
+button .modal-close-button:hover, 
 .modal-close-button:focus {
   background-color: #404bbf; /* Зміна кольору фону при наведенні */
   border: none; /* Видаляємо рамку при наведенні */
