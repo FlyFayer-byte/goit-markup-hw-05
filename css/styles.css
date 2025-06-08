@@ -457,8 +457,6 @@ img {
 }
 .footer-form {
   display: flex;
-}
-.footer-label {
   gap: 24px;
 }
 
@@ -483,7 +481,7 @@ img {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: var(--iris);
   margin-left: 24px;
@@ -492,6 +490,9 @@ img {
   letter-spacing: 0.04em;
   color: var(--white);
   border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /*Modal window*/
