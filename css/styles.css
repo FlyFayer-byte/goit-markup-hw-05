@@ -455,6 +455,13 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.footer-form {
+  display: flex;
+}
+.footer-label {
+  gap: 24px;
+}
+
 .footer-input {
   /*Box Model*/
   border: 1px solid var(--white);
@@ -463,9 +470,9 @@ img {
   height: 40px;
   /*Styles*/
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: inherit;
+  background-color: transparent; /* Прозорий фон */
   font-size: 12px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
   padding-left: 16px;
