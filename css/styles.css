@@ -1,5 +1,6 @@
 :root {
   --iris: #4d5ae5;
+  --ocean: #404bbf;
   --navy-blue: #2e2f42;
   --light-slate: #8e8f99;
   --cloud: #f4f4fd;
@@ -667,4 +668,9 @@ img {
   align-items: center; /* Вирівнюємо іконку по вертикалі */
   justify-content: center; /* Вирівнюємо іконку по горизонталі */
   fill: transparent;
+}
+.visually-hidden:checked + .link {
+  background-color: var(--ocean); /* Колір фону при виборі */
+  border: none; /* Без рамки при виборі */
+  fill: var(--cloud);
 }
