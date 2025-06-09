@@ -674,3 +674,6 @@ img {
   border: none; /* Без рамки при виборі */
   fill: var(--cloud);
 }
+.checkbox-link {
+  color: var(--iris);
+}
