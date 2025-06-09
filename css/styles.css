@@ -689,7 +689,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--cloud);
+  color: #ffffff;
   background-color: var(--iris);
   cursor: pointer;
   border: none;
