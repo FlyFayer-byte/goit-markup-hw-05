@@ -669,7 +669,7 @@ img {
   justify-content: center; /* Вирівнюємо іконку по горизонталі */
   fill: transparent;
 }
-.visually-hidden:checked + .link {
+input[type="checkbox"]:checked + span {
   background-color: var(--ocean); /* Колір фону при виборі */
   border: none; /* Без рамки при виборі */
   fill: var(--cloud);
