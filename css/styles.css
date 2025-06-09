@@ -576,6 +576,7 @@ img {
 /*  */
 .modal-form {
   margin-bottom: 8px; /* Відступ знизу для форми */
+  display: block;
 }
 
 .modal-form-labels {
@@ -603,6 +604,9 @@ img {
 .modal-form-input:focus {
   border-color: var(--iris); /* Колір рамки при фокусі */
 }
+.modal-form-input:focus ~ .modal-input-icons {
+  fill: var(--iris); /* Колір іконки при фокусі */
+}
 
 .modal-input-icons {
   position: absolute;
@@ -610,7 +614,4 @@ img {
   top: 50%;
   transform: translateY(-50%); /* Центруємо іконку по вертикалі */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація зміни кольору іконки */
-}
-.modal-form-input:focus .modal-input-icons {
-  fill: var(--iris); /* Колір іконки при фокусі */
 }
