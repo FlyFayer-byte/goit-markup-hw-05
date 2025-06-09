@@ -649,3 +649,9 @@ img {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap; /* Забороняємо перенос рядків */
 }
+.modal-form-checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
